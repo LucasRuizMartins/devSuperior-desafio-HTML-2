@@ -1,0 +1,213 @@
+:root {
+    --blue-background: #222374;
+    --red-background: #F03C42;
+    --text-white: #fff;
+    --gray-background: #CCCCCC;
+    --text-red: #F03C42;
+    ;
+
+}
+
+* {
+    font-family: 'open-sans';
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+a a:hover {
+    color: unset;
+    text-decoration: none;
+}
+
+.container {
+    width: 100%;
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+
+/*header*/
+header {
+
+    height: 100px;
+    background-color: var(--red-background);
+    display: flex;
+    align-items: center;
+
+}
+
+nav {
+    width: 960px;
+    color: var(--text-white);
+
+}
+
+.nav-content {
+
+    width: 90vw;
+    margin-left: 120px;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+
+
+}
+
+.card-insta {
+    align-items: center;
+    display: flex;
+
+
+}
+
+.card-insta img {
+    width: 30px;
+    height: 30px;
+}
+
+.card-insta p {
+    padding-left: 10px;
+}
+
+nav h3 {
+
+    color: #FFF;
+
+}
+
+header h2 {
+    color: #FFF;
+
+}
+
+/* main */
+
+.space-card {
+    width: 80vw;
+    height: 127px;
+    background-color: var(--gray-background);
+    padding-left: 20px;
+    border-radius: 8px;
+    margin-left: 120px;
+    margin-right: 120px;
+    margin-top: 20px;
+
+}
+
+.space-card h3 {
+    padding-top: 20px;
+    color: black;
+    font-size: 20px;
+
+}
+
+.space-card p {
+    padding-top: 20px;
+    color: black;
+    font-size: 14px;
+
+}
+
+#my-space {
+    width: 100vw;
+    height: 418px;
+    background-color: var(--blue-background);
+
+}
+
+#my-space h2 {
+    margin-left: 120px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 32px;
+    color: var(--text-white);
+}
+
+.modality {
+
+    width: 100vw;
+    height: 880px;
+}
+
+.modality h2 {
+    margin-left: 120px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 32px;
+    color: var(--text-red);
+}
+
+.modality-card {
+    width: 80vw;
+    height: 127px;
+    background-color: var(--blue-background);
+    padding-left: 20px;
+    padding-bottom: 20px;
+    border-radius: 8px;
+    margin-left: 120px;
+    margin-right: 120px;
+    margin-top: 20px;
+
+
+}
+
+.modality-card h3 {
+    padding-top: 20px;
+    color: var(--text-white);
+    font-size: 20px;
+
+}
+
+.modality-card p {
+    padding-top: 20px;
+    color: var(--text-white);
+    font-size: 14px;
+
+}
+
+footer {
+    margin-top: 120px;
+    width: 100vw;
+    height: 262px;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+footer img {
+    width: 30px;
+    height: 30px;
+    margin-top: 10px;
+}
+
+.footer-content {
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.insta-footer {
+    padding-left: 7px;
+    padding-top: 60px;
+
+}
+
+.footer-content p {
+    font-size: 14px;
+    padding-left: 10px;
+    color: var(--text-white);
+}
+
+address {
+    font-size: 14px;
+    color: var(--text-white);
+}
+
+#rights {
+margin-top: 36px;
+
+}
